@@ -2,7 +2,7 @@
   "name": "weekly-meal-plan",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/lera-ro/weekly-meal-plan.git",
+  "homepage": "https://lera-ro.github.io/weekly-meal-plan",
   "type": "module",
   "scripts": {
     "dev": "vite",
