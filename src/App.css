@@ -1,0 +1,138 @@
+body {
+  background: url(food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Montserrat", serif;
+  background-color: #dcedf7;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.add-button {
+  background-color: #77cf40;
+  border: none;
+  border-radius: 20px;
+  font-family: "Montserrat", serif;
+  font-size: 17px;
+  padding: 20px;
+}
+
+.delete-button {
+  background: none;
+  border: 0;
+  font-family: "Montserrat", serif;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.whole-plan {
+  width: 800px;
+  height: 100vh;
+  margin-left: 200px; 
+}
+
+.myInput {
+  width: 800px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 30px;
+}
+
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 800px;
+  height: 100px;
+  border-radius: 20px;
+  font-family: "Montserrat", serif;
+  resize: none;
+  padding: 10px;
+}
+
+.selected {
+  background-color: #fad106;
+  margin-top: 10px;
+}
+
+.default {
+  background-color: #dcedf7;
+  margin-top: 10px;
+}
+
+.header {
+  font-family: "Montserrat", serif;
+  font-size: 20px;
+  color: black;
+  margin-left: 200px; 
+  font-size: 45px;
+}
+
+.field {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  color: black;
+}
+
+@media all and (max-width: 1500px){
+  .header {
+    font-size: 30px;
+  }
+  .whole-plan {
+    width: 350px;
+  }
+  .myInput {
+    width: 350px;
+  }
+  textarea {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 1000px){
+  h1 {
+    font-size: 20px;
+  }
+
+  .whole-plan {
+    width: 250px;
+  }
+  .myInput {
+    width: 250px;
+  }
+  textarea {
+    width: 250px;
+  } 
+}
+
+@media all and (max-width: 600px){
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 15px;
+  }
+
+  .whole-plan {
+    margin-left: 10px; 
+    width: 300px;
+  }
+  .myInput {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }   
+}
